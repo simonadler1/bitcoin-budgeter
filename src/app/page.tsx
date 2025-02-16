@@ -6,6 +6,7 @@ import AddTransaction from "@/app/components/AddTransaction";
 
 export default function Home() {
   const [transactions, setTransactions] = useState<Transaction[]>([]);
+  //test
   return (
     <div className="">
       <Calendar transactions={transactions} />
